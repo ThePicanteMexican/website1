@@ -1,0 +1,54 @@
+
+/* The * applies the property to everything; the command just makes every border the size specified no matter the change*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: plum;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.search {
+    height: 50x;
+    position: relative;
+}
+
+.search .btn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 24px;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform 1.5s ease;
+}
+
+.input {
+    background-color: whitesmoke;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+    transition: width 1.5s ease;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.search.active .input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translateX(190px)
+}
