@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Ctrl-/ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #4B7F52;
+    padding-bottom: 50px;
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: url("images/wide-master-chief.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 150vh;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0 0 15px;
+}
+
+.hero p {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+.content h2, .content h3 {
+    font-size: 150%;
+    margin: 20px 0;
+}
+
+.content p {
+    color: #053B06;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+
+.nav {
+    background-color: #222222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in;
+}
