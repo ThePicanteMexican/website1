@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -73,4 +73,45 @@ body{
     left: 0;
     right: 0;
     transition: all 0.3s ease-in;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    transition: all 0.3s ease-in;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: green;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in;
+}
+
+.nav.active {
+    background-color: #C7D66D;
+    box-shadow: 0 4px 12px rgba(128,128,0,0.5);
+}
+
+.nav.active a {
+    color: black;
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+    color: #9D44B5;
+    font-weight: bold;
 }

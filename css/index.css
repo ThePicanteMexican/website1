@@ -8,8 +8,10 @@ body {
 }
 
 .header {
+    position: top left;
     font-size: 24px;
     background-color: blue;
+    max-height: 500vh;
 }
 
 .link {
@@ -18,4 +20,11 @@ body {
 
 .captions {
     color: #FF579F;
+}
+
+.song-btn {
+    margin: 20px 0px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
 }
