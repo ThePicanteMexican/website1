@@ -3,11 +3,14 @@
 }
 
 body {
-    background-color: #50514F;
+    cursor: url('images/pikachu.png'), auto;
+    background-color: #E4F6F9;
+    width: 120vh;
     height: 100vh;
 }
 
-.div-1{
+.div-1 .header{
+    background-size: cover;
     margin: 0px;
     padding: 0px;
     position: relative;
@@ -15,18 +18,43 @@ body {
     background-color: #FF579F;
 }
 
+.div-2 {
+    word-wrap: break-word;
+    height: 100vh;
+    max-height: max-content;
+    position: fixed;
+    background-color: #002642;
+    top: 0;
+    width: 40vh;
+    right: 0;
+}
+
+.div-2 h1{
+    color: green;
+    text-align: center;
+    text-decoration: solid;
+    padding: 10px;
+    top: 0;
+    margin: 0px 0px 15px 0px;
+    background-color: black;
+}
+
+.div-2 .link {
+    text-decoration: wavy;
+    color: #8B2635;
+    font-size: 24px;
+    margin: 0;
+}
+
+.div-2 .captions {
+    color: #F06449;
+    font-size: 12px;
+}
+
 .header{
     text-align: center;
     justify-content: center;
     font-size: 40px;
-}
-
-.link {
-    color: #17BEBB;
-}
-
-.captions {
-    color: #FF579F;
 }
 
 .song-btn {
