@@ -10,6 +10,15 @@ body{
     margin: 0;
 }
 
+.home-btn{
+    background-color: #7DDE92;
+    font-size: 8px;
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+
+
 .container {
     width: 90vw;
     display: flex;

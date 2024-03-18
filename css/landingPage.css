@@ -16,6 +16,14 @@ body {
     transition: transform 0.2s ease;
 }
 
+.home-btn{
+    background-color: #7DDE92;
+    font-size: 8px;
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+
 body.show-nav{
     transform: translateX(200px);
 }

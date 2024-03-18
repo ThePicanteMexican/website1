@@ -14,6 +14,14 @@ body {
     margin: 0;
 }
 
+.home-btn{
+    background-color: #7DDE92;
+    font-size: 8px;
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+
 .search {
     height: 50x;
     position: relative;
