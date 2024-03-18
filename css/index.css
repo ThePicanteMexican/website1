@@ -1,21 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    cursor: url('images/pikachu.png'), auto;
+    position: fixed;
+    cursor: url('images/amongus.png'), pointer;
     background-color: #E4F6F9;
-    width: 120vh;
-    height: 100vh;
+    width: 120vw;
+    height: 60vh;
+}
+
+.div-1 {
+    margin: 0 auto;
+    top: -13px;
+    left: -13px;
+    position: absolute;
+    height: 12vh;
+    width: 85vw;
+    background-color: #241023;
+    color: #EA9E8D;
+}
+
+.div-1 .cover {
+    cursor: url("images/amongus-btn.png"), auto;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 40px;
+    height: 60vh;
+    width: 20vw;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .div-1 .header{
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
+    border-right: 5px solid rgba(256, 256, 256, 0.5);
+    font-family: "Lato", sans-serif;
+    top: 0;
+    left: 0;
+    margin: 2px;
+    padding: 2px 5px;
     position: relative;
     top:0;
-    background-color: #FF579F;
+    font-size: 60px;
 }
 
 .div-2 {
@@ -40,7 +70,8 @@ body {
 }
 
 .div-2 .link {
-    text-decoration: wavy;
+    cursor: url('images/amongus-pointer.png'), auto;
+    font-weight: bold;
     color: #8B2635;
     font-size: 24px;
     margin: 0;
@@ -49,6 +80,7 @@ body {
 .div-2 .captions {
     color: #F06449;
     font-size: 12px;
+    text-decoration: wavy;
 }
 
 .header{
@@ -58,6 +90,7 @@ body {
 }
 
 .song-btn {
+    cursor: url('images/amongus-pointer.png'), auto;
     margin: 20px 0px;
     background-color: red;
     color: white;
